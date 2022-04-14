@@ -45,7 +45,8 @@
                     echo "<script>alert('Đăng nhập thất bại')</script>";
                 }
             }else{
-                echo "<script>alert('Tài khoản đã bị khóa')</script>";
+                // echo "<script>alert('Tài khoản đã bị khóa')</script>";
+				echo "<script>alert('Tài khoản đã bị vô hiệu hoá')</script>";
             }
 
         }
