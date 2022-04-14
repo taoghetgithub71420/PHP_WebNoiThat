@@ -25,6 +25,7 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="../admin/assest/css/util.css">
 	<link rel="stylesheet" type="text/css" href="../admin/assest/css/main.css">
+	<link rel="stylesheet" type="text/css" href="../admin/assest/css/mainnnn.css">
 
 
     <?php
@@ -44,12 +45,9 @@
                 } else {
                     echo "<script>alert('Đăng nhập thất bại')</script>";
                 }
-				else {
-                    echo "<script>alert('Đăng nhập thất bại')</script>";
-                }
-				else {
-                    echo "<script>alert('Đăng nhập thất bại')</script>";
-                }
+            }else{
+                echo "<script>alert('Tài khoản đã bị khóa')</script>";
+            }
 
         }
     ?>
